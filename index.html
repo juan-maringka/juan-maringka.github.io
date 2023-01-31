@@ -8,7 +8,7 @@
 
 <body>
     <header>
-        <ul id="menu" class="shadow">
+        <ul id="menu">
             <li>
                 <a href="#about">About</a>
             </li>
@@ -29,49 +29,41 @@
     <!-- End header -->
 
     <div id="lead">
-        <div id="lead-content">
+        <div>
             <h1>Juan Diego Maringka</h1>
             <h2>Student, Musician</h2>
         </div>
-        <!-- End #lead-content -->
     </div>
     <!-- End #lead -->
 
     <div id="about">
         <div>
-            <div>
-                <div>
-                    <h2>About Me</h2>
-                </div>
-                <div>
-                    <p>
-                        I am Juan. I play piano and clarinet. I am in Philharmonic Wind Orchestra.
-                    </p>
-                </div>
-            </div>
+            <h2>About Me</h2>
+        </div>
+        <div>
+            <p>
+                I am Juan. I play piano and clarinet. I am in philharmonic wind orchestra.
+            </p>
         </div>
     </div>
     <!-- End #about -->
 
     <div id="education">
         <h2>Education</h2>
-        <div>
-            <h3>Nanyang Junior College</h3>
-            <span>2022 - Present</span>
+        <div class="education-block">
+            <h3>Nanyang Junior College (2022 - Present)</h3>
             <h4>GCE A-Level</h4>
         </div>
         <!-- End .education-block -->
 
-        <div>
-            <h3>St Patrick's School</h3>
-            <span>2018 - 2021</span>
+        <div class="education-block">
+            <h3>St Patrick's School (2018 - 2021)</h3>
             <h4>GCE O-Level</h4>
         </div>
         <!-- End .education-block -->
 
-        <div>
-            <h3>St Stephen's School</h3>
-            <span>2012 - 2017</span>
+        <div class="education-block">
+            <h3>St Stephen's School (2012 - 2017)</h3>
             <h4>PSLE</h4>
         </div>
         <!-- End .education-block -->
@@ -81,21 +73,11 @@
     <div id="projects">
         <h2>Projects</h2>
         <div>
-            <div>
-                
-                <div>
-                    <div>
-                        <h3>Portfolio Website</h3>
-                        <p>
-                            A website to showcase my portfolio.
-                        </p>
-                        <a href="#">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-                
-            </div>
+            <h3>Portfolio Website</h3>
+            <p>
+                A website to showcase my portfolio.
+            </p>
+            <a href="#">View Project</a>
         </div>
     </div>
     <!-- End #projects -->
@@ -111,39 +93,27 @@
 
     <div id="contact">
         <h2>Get in Touch</h2>
-        <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-        <!-- End #contact-form -->
+        <p>Email: juan.diego.maringka_2223@nyjc.edu.sg</p>
     </div>
     <!-- End #contact -->
 
     <footer>
         <div>
-            <div>
-                <div>
-                    <p>
-                        Copyright &copy; <span id="current-year">2023</span> Juan Diego Maringka
-                    </p>
-                </div>
-                <div>
-                    <span id="to-top">
-                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                    </span>
-                </div>
-                <div >
-                    <ul>
-                        <li>
-                            <a href="https://github.com/juan-maringka" target="_blank"><i class="fa fa-github" aria-hidden="true">GitHub</i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+            <p>
+                Copyright &copy; <span id="current-year">2023</span> Juan Diego Maringka
+            </p>
+        </div>
+        <div>
+            <span id="to-top">
+                <i class="fa fa-chevron-up" aria-hidden="true"></i>
+            </span>
+        </div>
+        <div >
+            <ul>
+                <li>
+                    <a href="https://github.com/juan-maringka" target="_blank"><i class="fa fa-github" aria-hidden="true">GitHub</i></a>
+                </li>
+            </ul>
         </div>
     </footer>
     <!-- End footer -->

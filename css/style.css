@@ -2,6 +2,11 @@
     background: red;
 }
 
+#menu li {
+    list-style-type: none;
+    display: inline;
+}
+
 #lead {
     background: orange;
 }
@@ -23,5 +28,5 @@
 }
 
 #contact {
-    background: purple;
+    background: violet;
 }
