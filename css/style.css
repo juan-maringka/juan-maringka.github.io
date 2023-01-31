@@ -1,28 +1,27 @@
-h1 {
-    font-size: 72px;  
+#menu {
+    background: red;
 }
 
-h2 {
-    color: #00ff00;
+#lead {
+    background: orange;
 }
 
-h4.job-title {
+#about {
+    background: yellow;
 }
 
-h2#menu {
-    font-weight: bold;
-    font-size: 14px;
-    color: purple;
+#education {
+    background: green;
 }
 
-a {
-    color: purple;
+#projects {
+    background: blue;
 }
 
-h2#job {
-    color: blue;
+#skills {
+    background: indigo;
 }
 
-/* .navlink {
-    color: red;
-} */
+#contact {
+    background: purple;
+}
